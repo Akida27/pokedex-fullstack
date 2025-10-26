@@ -47,7 +47,7 @@ app.MapGet("/api/pokemon/{nameOrId}",
 
 app.Run();
 
-// --- DTOs ---
+// DTOs
 record PokemonDto(int id, string name, string image);
 
 record PokeApiResponse(int id, string name, Sprites sprites);

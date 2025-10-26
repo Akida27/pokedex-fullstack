@@ -36,7 +36,7 @@ function App() {
         Pokédex
       </h1>
 
-      {/* Pokémon Image (above the search bar) */}
+      {/* Pokémon Image */}
       {result && (
         <img
           src={result.image}
