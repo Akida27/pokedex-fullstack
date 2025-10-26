@@ -71,16 +71,15 @@ Tips: To safely create .env file, run this command from the project root:
 cd frontend/pokedex-client
 echo VITE_API_BASE=http://localhost:5148 > .env
 ```
-Paste the following in the .env file:
-
-```bash
-VITE_API_BASE=http://localhost:5148
-```
 
 ### 4. Run the Frontend
-Open a new terminal and run:
+You should already be inside the
 ```bash 
-cd frontend/pokedex-client
+frontend/pokedex-client 
+``` 
+folder from Step 3:
+Now, in the same terminal, install dependencies and start the React dev server:
+```bash
 npm install
 npm run dev
 ```
