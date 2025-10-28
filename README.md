@@ -33,6 +33,13 @@ The frontend sends a request to `/api/pokemon/{nameOrId}`, and the backend forwa
 
 
 ## Setup Instructions
+This project requires Node.js v20.19.0 or later to work properly with Vite 7. Check Your Node.js Version
+by running this command : 
+```bash
+node -v
+```
+If your version is older, please download and install the latest LTS release from the official Node.js website:
+https://nodejs.org/en/download
 
 ### 1. Clone the Repository
 ```bash
