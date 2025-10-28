@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Http.HttpResults;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Allow React dev server origin during development
 const string AllowedOrigin = "http://localhost:5173";
 builder.Services.AddCors(options =>
 {
